@@ -1,0 +1,40 @@
+img.about-img {
+    height: 400px;
+    width: 400px;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-section__about {
+    padding: 0px 400px 0px 500px;
+}
+
+img.moon-img {
+    height: 200px;
+    width: 200px;
+}
+
+img.craft-img {
+    height: 200px;
+    width: 200px;
+}
+
+img.cake-img {
+    height: 200px;
+    width: 200px;
+}
+
+img.travel-img {
+    height: 200px;
+    width: 200px;
+}
+
+.about-section__interests {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
