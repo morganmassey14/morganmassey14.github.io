@@ -1,6 +1,7 @@
 import React from "react";
 import c51 from "../images/c51.svg";
 import moodmoons from "../images/moodmoons.svg";
+import "../styles/custom.scss";
 
 
 export const Work = () => {

@@ -1,22 +1,12 @@
-// Morgan Massey's Portfolio
-$white: #FFFFFF;
-$lightpink: #FFFAFA; 
-$yellow: #FDE5BD;
-$blue: #92C4EA;
-$pink: #EFA2AA;
-$hotpink: #FF5372;
-$grey: #383838;
-$black: #191919; 
-// *************************
 
 @import "./_colors.scss";
+@import "bootstrap/scss/bootstrap.scss";
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Titillium+Web:wght@200;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Manrope:wght@600&family=Titillium+Web:wght@200;900&display=swap');
 @import "./navbar.scss";
 @import "./description.scss";
-@import "bootstrap/scss/bootstrap.scss";
-
-@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Titillium+Web:wght@200;900&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Manrope:wght@600&family=Titillium+Web:wght@200;900&display=swap');
+@import "./work.scss";
+@import "./about.scss";
 
 //Main Stying ===================
 body {
