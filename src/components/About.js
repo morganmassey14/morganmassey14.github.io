@@ -14,7 +14,7 @@ export const About = () => {
         <div id="about" className="about">
         <div className="aboutpicture"><img className="about-img" src={about} alt="mmpic" /></div>
             <div className="about-section__about">
-            <div className="resumepicture"><img className="resume-img rotating" src={resume} alt="resume"></img></div>
+            <div className="resumepicture"><a href="https://arizonaatwork.com" target="_blank"><img className="resume-img rotating" src={resume} alt="resume"/></a></div>
                 <div className="about-section__icon">
                 <div className="media-btn">
                 <h3>About</h3>
