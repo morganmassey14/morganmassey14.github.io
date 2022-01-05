@@ -1,0 +1,79 @@
+.case-study-cw-btn {
+    border-radius: 20px;
+    background: $blue;
+    color: $black;
+    font-size: 1em;
+    padding: 5px 100px;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 0 0 0.5rem;
+    .btn-item {
+        text-align: center;
+        text-decoration: none;
+    }
+   
+}
+  
+
+.prototype-cw-btn {
+    border-radius: 20px;
+    background: $pink;
+    color: $black;
+    font-size: 1em;
+    padding: 5px 100px;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 0 0 0.5rem;
+    .btn-item {
+        text-align: center;
+        text-decoration: none;
+    }
+}
+
+.case-study-mm-btn {
+    border-radius: 20px;
+    background: $blue;
+    color: $black;
+    font-size: 1em;
+    padding: 5px 100px;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 0 0 0.5rem;
+    .btn-item {
+        text-align: center;
+        text-decoration: none;
+    }
+   
+}
+  
+
+.prototype-mm-btn {
+    border-radius: 20px;
+    background: $pink;
+    color: $black;
+    font-size: 1em;
+    padding: 5px 100px;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 0 0 0.5rem;
+    .btn-item {
+        text-align: center;
+        text-decoration: none;
+    }
+}
+
+       
+a {
+    text-decoration: none;
+}
+
+.c51-btn-container{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.mm-btn-container{
+    display: flex;
+    flex-direction: column;
+} 
