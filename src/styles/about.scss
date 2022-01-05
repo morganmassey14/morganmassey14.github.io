@@ -1,40 +1,109 @@
 img.about-img {
-    height: 400px;
-    width: 400px;
+    height: 350px;
+    width: 350px;
+    margin-left: 5px;
 }
 
 .about {
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 .about-section__about {
-    padding: 0px 400px 0px 500px;
+    margin: 0px 0px 0px 10px;
 }
 
 img.moon-img {
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
 }
 
 img.craft-img {
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
 }
 
 img.cake-img {
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
 }
 
 img.travel-img {
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
 }
+
+img.resume-img {
+    margin-top: -200px;
+    width: 150px;
+}
+@-webkit-keyframes rotating /* Safari and Chrome */ {
+    from {
+      -webkit-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    to {
+      -webkit-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+  @keyframes rotating {
+    from {
+      -ms-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -webkit-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    to {
+      -ms-transform: rotate(360deg);
+      -moz-transform: rotate(360deg);
+      -webkit-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+  .rotating {
+    -webkit-animation: rotating 20s linear infinite;
+    -moz-animation: rotating 20s linear infinite;
+    -ms-animation: rotating 20s linear infinite;
+    -o-animation: rotating 20s linear infinite;
+    animation: rotating 20s linear infinite;
+  }
 
 .about-section__interests {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.about-interest {
+    width: 160px;
+}
+.icon {
+    margin-right: 10px;  
+}
+
+a:hover {
+    color: $hotpink;
+    transition: 250ms;
+}
+a {
+    color: $pink;
+}
+
+.media-btn {
+    display: flex;
+    justify-content: flex-end;
+}
+
+svg{
+    width: 45px;
+    height: 45px;
+}
+
+h3 {
+    margin-right: 15px;
 }
