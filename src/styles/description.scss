@@ -1,9 +1,14 @@
 //mobile version
 .description {
     display: flex;
-    flex-direction: column;
-    background: linear-gradient($white, $pink);
+    flex-direction: row;
+    background: linear-gradient(#FFFFFF 60%, #EFA2AA 40%);
     height: 100vh;
+    flex-wrap: wrap;
+}
+
+.description_text{
+    max-width: 637px;
 }
 
 .description-section__about {
@@ -11,7 +16,23 @@
 }
 
 img.profile-img {
-    width: 350px;
-    height: 350px;
-    margin-left: 5px;
+    width: 320px;
+    height: 320px;
+}
+
+.description__icon {
+    margin-right: 10px;
+    
+    a {
+        color: $hotpink;
+    }
+    a:hover {
+        color: $yellow;
+        transition: 250ms;
+    }
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
 }
