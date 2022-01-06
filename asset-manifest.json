@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.77db6aa8.chunk.css",
+    "main.js": "/static/js/main.76b2c21e.chunk.js",
+    "main.js.map": "/static/js/main.76b2c21e.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.05e6f4b7.js",
+    "runtime-main.js.map": "/static/js/runtime-main.05e6f4b7.js.map",
+    "static/js/2.c683534a.chunk.js": "/static/js/2.c683534a.chunk.js",
+    "static/js/2.c683534a.chunk.js.map": "/static/js/2.c683534a.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.77db6aa8.chunk.css.map": "/static/css/main.77db6aa8.chunk.css.map",
+    "static/js/2.c683534a.chunk.js.LICENSE.txt": "/static/js/2.c683534a.chunk.js.LICENSE.txt",
+    "static/media/aboutpicture.22880931.svg": "/static/media/aboutpicture.22880931.svg",
+    "static/media/c51.f86374b8.svg": "/static/media/c51.f86374b8.svg",
+    "static/media/cake.b006f98a.svg": "/static/media/cake.b006f98a.svg",
+    "static/media/craft.7c58d66a.svg": "/static/media/craft.7c58d66a.svg",
+    "static/media/moodmoons.218f3cad.svg": "/static/media/moodmoons.218f3cad.svg",
+    "static/media/moon.2e6359d8.svg": "/static/media/moon.2e6359d8.svg",
+    "static/media/profile.54a35717.svg": "/static/media/profile.54a35717.svg",
+    "static/media/resume.67d886a3.svg": "/static/media/resume.67d886a3.svg",
+    "static/media/travel.41717eed.svg": "/static/media/travel.41717eed.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.05e6f4b7.js",
+    "static/js/2.c683534a.chunk.js",
+    "static/css/main.77db6aa8.chunk.css",
+    "static/js/main.76b2c21e.chunk.js"
+  ]
+}
