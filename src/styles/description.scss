@@ -2,8 +2,8 @@
 .description {
     display: flex;
     flex-direction: row;
-    background: linear-gradient(#FFFFFF 60%, #EFA2AA 40%);
-    height: 100vh;
+    // background: linear-gradient(#FFFFFF 60%, #EFA2AA 40%);
+    // height: 100vh;
     flex-wrap: wrap;
 }
 
@@ -35,4 +35,15 @@ img.profile-img {
 .icon-container {
     display: flex;
     justify-content: center;
+}
+
+img.unicorn-img {
+    height: 150px;
+    width: 150px;
+}
+
+.unicorn {
+    margin-top: -40px;
+display: flex;
+justify-content: space-around;
 }

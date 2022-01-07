@@ -6,6 +6,7 @@ import craft from "../images/craft.svg";
 import travel from "../images/travel.svg";
 import resume from "../images/resume.svg";
 import { BsLinkedin, BsGithub, BsFillEnvelopeFill } from "react-icons/bs";
+import unicorn from "../images/unicorn.svg";
 
 
 export const About = () => {
@@ -49,7 +50,9 @@ export const About = () => {
             </div>
         </div>
         </div>
+            
                 <h5>I am passionate about design and people. I love creating applications that are aesthetically pleasing and easy for a user to navigate. I like to think outside of the box, try new things, and learn from others around me.</h5>
+                <div className="unicornpicture"><img className="unicorn-img" src={unicorn} alt="unicorn"/></div>
             </div>
             </div>
             <div className="about-section__interests">
