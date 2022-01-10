@@ -6,13 +6,13 @@ export const Description = () => {
     return (
         <>
         <div id="description" className="description">
-
         <section className="description_text"> <div className="description-section__about">
-            <h1>Howdy, Im Morgan Massey. A UI/UX Designer & Front-End Developer</h1>
+            <h1>Howdy, Im Morgan Massey. A UI/UX Designer & Full Stack Developer</h1>
             </div></section>
         <section>   
              <div className="profilepicture"><img className="profile-img" src={profile} alt="mmpic" /></div>
             
+
             <div className="icon-container">
             <div className="description__icon">
                 <a href="https://www.linkedin.com/in/morganelizmassey/"

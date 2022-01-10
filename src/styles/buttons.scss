@@ -1,3 +1,5 @@
+//mobile
+
 .case-study-cw-btn {
     border-radius: 20px;
     background: $blue;
@@ -77,3 +79,76 @@ a {
     display: flex;
     flex-direction: column;
 } 
+
+@media only screen and (min-width:361px) {
+    //mobile
+
+.case-study-cw-btn {
+    border-radius: 20px;
+    background: #92C4EA;
+    color: #191919;
+    margin: 10px;
+    padding: 10px 20px 10px 20px;
+    .btn-item {
+        text-align: center;
+        text-decoration: none;
+    }
+   
+}
+  
+
+.prototype-cw-btn {
+    border-radius: 20px;
+    background: $pink;
+    color: $black;
+    margin: 10px;
+    padding: 10px 20px 10px 20px;
+    .btn-item {
+        text-align: center;
+        text-decoration: none;
+    }
+}
+
+.case-study-mm-btn {
+    border-radius: 20px;
+    background: #92C4EA;
+    color: #191919;
+    margin: 10px;
+    padding: 10px 20px 10px 20px;
+    .btn-item {
+        text-align: center;
+        text-decoration: none;
+    }
+   
+}
+  
+
+.prototype-mm-btn {
+    border-radius: 20px;
+    background: $pink;
+    color: $black;
+    margin: 10px;
+    padding: 10px 20px 10px 20px;
+    .btn-item {
+        text-align: center;
+        text-decoration: none;
+    }
+}
+
+       
+a {
+    text-decoration: none;
+}
+
+.c51-btn-container{
+    display: flex;
+    flex-direction: row;
+ 
+}
+
+
+.mm-btn-container{
+    display: flex;
+    flex-direction: row;
+} 
+}
