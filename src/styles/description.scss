@@ -2,8 +2,6 @@
 .description {
     display: flex;
     flex-direction: row;
-    // background: linear-gradient(#FFFFFF 60%, #EFA2AA 40%);
-    // height: 100vh;
     flex-wrap: wrap;
 }
 
@@ -46,4 +44,57 @@ img.unicorn-img {
     margin-top: -40px;
 display: flex;
 justify-content: space-around;
+}
+//media query for description
+@media only screen and (min-width:361px){
+    .description {
+        display: flex;
+        flex-direction: column;
+        background: linear-gradient(#FFFFFF 50%, #EFA2AA 50%);
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    
+    .description_text{
+        max-width: 637px;
+    }
+    
+    .description-section__about {
+        margin: 50px 0px 0px 10px;
+    }
+    
+    img.profile-img {
+        width: 600px;
+        height: 600px;
+    }
+    
+    .description__icon {
+        margin-right: 10px;
+        
+        a {
+            color: $hotpink;
+        }
+        a:hover {
+            color: $yellow;
+            transition: 250ms;
+        }
+    }
+    
+    .icon-container {
+        display: flex;
+        justify-content: center;
+    }
+    
+    img.unicorn-img {
+        height: 150px;
+        width: 150px;
+    }
+    
+    .unicorn {
+        margin-top: -40px;
+    display: flex;
+    justify-content: space-around;
+    }
 }

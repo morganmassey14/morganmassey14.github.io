@@ -50,9 +50,10 @@ export const About = () => {
             </div>
         </div>
         </div>
-            
+                <div className="about-section__text">
                 <h5>I am passionate about design and people. I love creating applications that are aesthetically pleasing and easy for a user to navigate. I like to think outside of the box, try new things, and learn from others around me.</h5>
                 <div className="unicornpicture"><img className="unicorn-img" src={unicorn} alt="unicorn"/></div>
+            </div>
             </div>
             </div>
             <div className="about-section__interests">
