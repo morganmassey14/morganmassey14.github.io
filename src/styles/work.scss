@@ -1,72 +1,73 @@
 //mobile version
-img.c51-img {
-    width: 200px;
-    height: 200px;
-}
-
-img.moodmoons-img {
-    width: 200px;
-    height: 200px;
-}
-
 .work-section__c51 {
-    margin-top: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    h5 {
-        margin-left: 10px;
-    }
-}
-
-.work-section__moodmoons {
-    margin-top: 50px;
+    padding: 2em;
     display: flex;
     flex-direction: column;
     align-items: center;
      h5 {
-        margin-left: 10px;
+        max-width: 35em;
+        padding-left: 1em;
     }
+
 }
 
-@media only screen and (min-width:361px){
-    .work {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around
+img.c51-img
+ {
+     padding: 2em;
+ }
+.work-section__moodmoons {
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     h5 {
+        max-width: 35em;
+        padding-left: 1em;
     }
-    
-    img.c51-img {
-        width: 300px;
-        height: 300px;
-        margin-bottom: 20px;
-    }
-    
-    img.moodmoons-img {
-        width: 300px;
-        height: 300px;
-        margin-bottom: 20px;
-    }
-    
-    .work-section__c51 {
-        margin-top: 50px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        max-width: 400px;
-        h5 {
-            margin-left: 10px;
-        }
-    }
-    
-    .work-section__moodmoons {
-        margin-top: 50px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        max-width: 400px;
-         h5 {
-            margin-left: 10px;
-        }
-    }  
 }
+img.moodmoons-img
+ {
+     padding: 2em;
+ }
+
+// @media only screen and (min-width:361px){
+//     .work {
+//         display: flex;
+//         flex-direction: row;
+//         justify-content: space-around
+//     }
+    
+//     img.c51-img {
+//         width: 300px;
+//         height: 300px;
+//         margin-bottom: 20px;
+//     }
+    
+//     img.moodmoons-img {
+//         width: 300px;
+//         height: 300px;
+//         margin-bottom: 20px;
+//     }
+    
+//     .work-section__c51 {
+//         margin-top: 50px;
+//         display: flex;
+//         flex-direction: column;
+//         align-items: center;
+//         max-width: 400px;
+//         h5 {
+//             margin-left: 10px;
+//         }
+//     }
+    
+//     .work-section__moodmoons {
+//         margin-top: 50px;
+//         display: flex;
+//         flex-direction: column;
+//         align-items: center;
+//         max-width: 400px;
+//          h5 {
+//             margin-left: 10px;
+//         }
+//     }  
+// }

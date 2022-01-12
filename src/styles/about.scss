@@ -111,13 +111,18 @@ h3 {
 
 
 //media query
-@media only screen and (min-width:361px){
+@media only screen and (min-width:768px){
     img.about-img {
         height: 500px;
         width: 500px;
         margin-left: 5px;
     }
     
+.about-section__text {
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
     .about {
         display: flex;
         flex-direction: column;
@@ -131,25 +136,32 @@ h3 {
     .about-section__about {
         margin-top: 20px;
     }
+
+    img.unicorn-img {
+        height: 100px;
+        width: 100px;
+        margin-right: 15px;
+        padding-bottom: 15px;
+    }
     
     img.moon-img {
-        height: 150px;
-        width: 150px;
+        height: 250px;
+        width: 250px;
     }
     
     img.craft-img {
-        height: 150px;
-        width: 150px;
+        height: 250px;
+        width: 250px;
     }
     
     img.cake-img {
-        height: 150px;
-        width: 150px;
+        height: 250px;
+        width: 250px;
     }
     
     img.travel-img {
-        height: 150px;
-        width: 150px;
+        height: 250px;
+        width: 250px;
     }
     
     img.resume-img {
@@ -197,11 +209,8 @@ h3 {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: space-around;
     }
-    .about-interest {
-        width: 160px;
-    }
+   
     .icon {
         margin-right: 10px;  
         margin-top: 25px;
@@ -221,7 +230,6 @@ h3 {
         margin-top: -90px;
         h3 {
             font-size: 80px;
-            margin-right: 140px;
         }
 
     }
@@ -230,8 +238,26 @@ h3 {
         width: 45px;
         height: 45px;
     }
-    
-    h3 {
-        margin-right: 15px;
+
+    .moon {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cake {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .travel {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .craft {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }

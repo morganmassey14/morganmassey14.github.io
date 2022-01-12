@@ -6,7 +6,7 @@ import craft from "../images/craft.svg";
 import travel from "../images/travel.svg";
 import resume from "../images/resume.svg";
 import { BsLinkedin, BsGithub, BsFillEnvelopeFill } from "react-icons/bs";
-import unicorn from "../images/unicorn.svg";
+import unicorn from "../images/unicorn.png";
 
 
 export const About = () => {
@@ -19,6 +19,7 @@ export const About = () => {
                 <div className="about-section__icon">
                 <div className="media-btn">
                 <h3>About</h3>
+                <div className="unicornpicture"><img className="unicorn-img" src={unicorn} alt="unicorn"/></div>
             <div className="icon">
                 <a href="https://www.linkedin.com/in/morganelizmassey/"
                 target="_blank"
@@ -51,15 +52,14 @@ export const About = () => {
         </div>
         </div>
                 <div className="about-section__text">
-                <h5>I am passionate about design and people. I love creating applications that are aesthetically pleasing and easy for a user to navigate. I like to think outside of the box, try new things, and learn from others around me.</h5>
-                <div className="unicornpicture"><img className="unicorn-img" src={unicorn} alt="unicorn"/></div>
+                <h5></h5>
             </div>
             </div>
             </div>
             <div className="about-section__interests">
                 <div className="about-interest">
             <div className="moon"><img className="moon-img" src={moon} alt="moonimg" />
-                <h5>Obsessing over my dachshund, Moon Unit</h5>
+                <h5>Playing with my dachshund, Moon Unit</h5>
                 </div>
                 </div>
                 <div className="about-interest">
@@ -69,12 +69,12 @@ export const About = () => {
                 </div>
                 <div className="about-interest">
                 <div className="craft"><img className="craft-img" src={craft} alt="craftimg" />
-                <h5>Creating with lots of different mediums</h5>
+                <h5>Creating art with many different mediums</h5>
                 </div>
                 </div>
                 <div className="about-interest">
                 <div className="travel"><img className="travel-img" src={travel} alt="travelimg" />
-                <h5>Travelling to places that feel like a Bob Ross painting.</h5>
+                <h5>Travelling to places that feel like a Bob Ross painting</h5>
             </div>
             </div>
             </div>

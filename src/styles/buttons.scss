@@ -85,10 +85,9 @@ a {
 
 .case-study-cw-btn {
     border-radius: 20px;
-    background: #92C4EA;
-    color: #191919;
-    margin: 10px;
-    padding: 10px 20px 10px 20px;
+    background: $blue;
+    color: $black;
+    padding: 0.7em 2.5em;
     .btn-item {
         text-align: center;
         text-decoration: none;
@@ -101,8 +100,7 @@ a {
     border-radius: 20px;
     background: $pink;
     color: $black;
-    margin: 10px;
-    padding: 10px 20px 10px 20px;
+    padding: 0.7em 2.5em;
     .btn-item {
         text-align: center;
         text-decoration: none;
@@ -111,10 +109,9 @@ a {
 
 .case-study-mm-btn {
     border-radius: 20px;
-    background: #92C4EA;
-    color: #191919;
-    margin: 10px;
-    padding: 10px 20px 10px 20px;
+    background: $blue;
+    color: $black;
+    padding: 0.7em 2.5em;
     .btn-item {
         text-align: center;
         text-decoration: none;
@@ -127,8 +124,7 @@ a {
     border-radius: 20px;
     background: $pink;
     color: $black;
-    margin: 10px;
-    padding: 10px 20px 10px 20px;
+    padding: 0.7em 2.5em;
     .btn-item {
         text-align: center;
         text-decoration: none;
@@ -138,6 +134,10 @@ a {
        
 a {
     text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
 }
 
 .c51-btn-container{

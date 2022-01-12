@@ -1,6 +1,6 @@
 import React from "react";
-import c51 from "../images/c51.svg";
-import moodmoons from "../images/moodmoons.svg";
+import c51 from "../images/c51.png";
+import moodmoons from "../images/moodmoons.png";
 import "../styles/custom.scss";
 import { CaseStudyCW, PrototypeCW, PrototypeMM, CaseStudyMM } from "./Buttons";
 
@@ -10,7 +10,7 @@ export const Work = () => {
         <>
         <div id="work" className="work">
         <div className="work-section__c51">
-        <div className="c51"><img className="c51-img" src={c51} alt="c51img" /></div>
+        <div className="c51picture"><a href="https://nss-day-cohort-51.github.io/" target="_blank"><img className="c51" src={c51} alt="c51"/></a></div>
             <h1>C51 Website</h1>
             <h5>Contributed to UI/UX design planning, creating wireframes and mockeups. Helped conduct user testing, implementing changes. Wrote code in React Javascript</h5>
            <div className="c51-btn-container">
