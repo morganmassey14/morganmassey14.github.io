@@ -4,16 +4,13 @@
     border-radius: 20px;
     background: $blue;
     color: $black;
-    font-size: 1em;
-    padding: 5px 100px;
+    padding: 1em 4em;
     font-weight: 600;
-    font-size: 15px;
     margin: 0 0 0.5rem;
     .btn-item {
         text-align: center;
         text-decoration: none;
     }
-   
 }
   
 
@@ -21,9 +18,7 @@
     border-radius: 20px;
     background: $pink;
     color: $black;
-    font-size: 1em;
-    padding: 5px 100px;
-    font-weight: 600;
+    padding: 1em 4em;
     font-size: 15px;
     margin: 0 0 0.5rem;
     .btn-item {
@@ -36,10 +31,7 @@
     border-radius: 20px;
     background: $blue;
     color: $black;
-    font-size: 1em;
-    padding: 5px 100px;
-    font-weight: 600;
-    font-size: 15px;
+    padding: 1em 4em;
     margin: 0 0 0.5rem;
     .btn-item {
         text-align: center;
@@ -53,10 +45,7 @@
     border-radius: 20px;
     background: $pink;
     color: $black;
-    font-size: 1em;
-    padding: 5px 100px;
-    font-weight: 600;
-    font-size: 15px;
+    padding: 1em 4em;
     margin: 0 0 0.5rem;
     .btn-item {
         text-align: center;
@@ -85,10 +74,9 @@ a {
 
 .case-study-cw-btn {
     border-radius: 20px;
-    background: #92C4EA;
-    color: #191919;
-    margin: 10px;
-    padding: 10px 20px 10px 20px;
+    background: $blue;
+    color: $black;
+    padding: 0.7em 2.5em;
     .btn-item {
         text-align: center;
         text-decoration: none;
@@ -101,8 +89,7 @@ a {
     border-radius: 20px;
     background: $pink;
     color: $black;
-    margin: 10px;
-    padding: 10px 20px 10px 20px;
+    padding: 0.7em 2.5em;
     .btn-item {
         text-align: center;
         text-decoration: none;
@@ -111,10 +98,9 @@ a {
 
 .case-study-mm-btn {
     border-radius: 20px;
-    background: #92C4EA;
-    color: #191919;
-    margin: 10px;
-    padding: 10px 20px 10px 20px;
+    background: $blue;
+    color: $black;
+    padding: 0.7em 2.5em;
     .btn-item {
         text-align: center;
         text-decoration: none;
@@ -127,8 +113,7 @@ a {
     border-radius: 20px;
     background: $pink;
     color: $black;
-    margin: 10px;
-    padding: 10px 20px 10px 20px;
+    padding: 0.7em 2.5em;
     .btn-item {
         text-align: center;
         text-decoration: none;
@@ -136,13 +121,18 @@ a {
 }
 
        
-a {
-    text-decoration: none;
-}
+
 
 .c51-btn-container{
     display: flex;
     flex-direction: row;
+    a {
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2em;
+    }
  
 }
 
@@ -150,5 +140,12 @@ a {
 .mm-btn-container{
     display: flex;
     flex-direction: row;
+    a {
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2em;
+    }
 } 
 }

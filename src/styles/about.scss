@@ -38,6 +38,10 @@ img.resume-img {
     margin-top: -200px;
     width: 150px;
 }
+
+img.unicorn-img {
+    display: none;
+}
 @-webkit-keyframes rotating /* Safari and Chrome */ {
     from {
       -webkit-transform: rotate(0deg);
@@ -111,16 +115,23 @@ h3 {
 
 
 //media query
-@media only screen and (min-width:361px){
+@media only screen and (min-width:768px){
     img.about-img {
         height: 500px;
         width: 500px;
         margin-left: 5px;
     }
     
+.about-section__text {
+    max-width: 35em;
+    padding-left: 1em;
+}
+
     .about {
+        padding: 2em;
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
 
     .aboutpicture {
@@ -131,30 +142,36 @@ h3 {
     .about-section__about {
         margin-top: 20px;
     }
+
+    img.unicorn-img {
+        margin-right: 15px;
+        display: block;
+        
+    }
     
     img.moon-img {
-        height: 150px;
-        width: 150px;
+        height: 250px;
+        width: 250px;
     }
     
     img.craft-img {
-        height: 150px;
-        width: 150px;
+        height: 250px;
+        width: 250px;
     }
     
     img.cake-img {
-        height: 150px;
-        width: 150px;
+        height: 250px;
+        width: 250px;
     }
     
     img.travel-img {
-        height: 150px;
-        width: 150px;
+        height: 250px;
+        width: 250px;
     }
     
     img.resume-img {
         margin-top: -350px;
-        margin-left: 400px;
+        margin-left: 1.5em;
         width: 200px;
     }
     @-webkit-keyframes rotating /* Safari and Chrome */ {
@@ -197,11 +214,9 @@ h3 {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: space-around;
+        padding: 2em;
     }
-    .about-interest {
-        width: 160px;
-    }
+   
     .icon {
         margin-right: 10px;  
         margin-top: 25px;
@@ -221,7 +236,6 @@ h3 {
         margin-top: -90px;
         h3 {
             font-size: 80px;
-            margin-right: 140px;
         }
 
     }
@@ -230,8 +244,33 @@ h3 {
         width: 45px;
         height: 45px;
     }
-    
-    h3 {
-        margin-right: 15px;
+
+    .moon {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cake {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .travel {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .craft {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    img.header-img {
+        display: block;  
+        margin-left: auto;  
+        margin-right: auto;
+        padding: 4em;  
     }
 }
