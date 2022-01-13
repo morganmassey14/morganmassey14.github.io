@@ -38,6 +38,10 @@ img.resume-img {
     margin-top: -200px;
     width: 150px;
 }
+
+img.unicorn-img {
+    display: none;
+}
 @-webkit-keyframes rotating /* Safari and Chrome */ {
     from {
       -webkit-transform: rotate(0deg);
@@ -119,13 +123,15 @@ h3 {
     }
     
 .about-section__text {
-    padding-left: 400px;
-    padding-right: 400px;
+    max-width: 35em;
+    padding-left: 1em;
 }
 
     .about {
+        padding: 2em;
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
 
     .aboutpicture {
@@ -138,10 +144,9 @@ h3 {
     }
 
     img.unicorn-img {
-        height: 100px;
-        width: 100px;
         margin-right: 15px;
-        padding-bottom: 15px;
+        display: block;
+        
     }
     
     img.moon-img {
@@ -166,7 +171,7 @@ h3 {
     
     img.resume-img {
         margin-top: -350px;
-        margin-left: 400px;
+        margin-left: 1.5em;
         width: 200px;
     }
     @-webkit-keyframes rotating /* Safari and Chrome */ {
@@ -209,6 +214,7 @@ h3 {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        padding: 2em;
     }
    
     .icon {
@@ -259,5 +265,12 @@ h3 {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    img.header-img {
+        display: block;  
+        margin-left: auto;  
+        margin-right: auto;
+        padding: 4em;  
     }
 }

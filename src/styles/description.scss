@@ -35,16 +35,7 @@ img.profile-img {
     justify-content: center;
 }
 
-img.unicorn-img {
-    height: 150px;
-    width: 150px;
-}
 
-.unicorn {
-    margin-top: -40px;
-display: flex;
-justify-content: space-around;
-}
 //media query for description
 @media only screen and (min-width:361px){
     .description {
@@ -55,6 +46,7 @@ justify-content: space-around;
         justify-content: center;
         align-items: center;
         align-content: center;
+        padding: 2em;
     }
     
     .description_text{
@@ -85,16 +77,5 @@ justify-content: space-around;
     .icon-container {
         display: flex;
         justify-content: center;
-    }
-    
-    img.unicorn-img {
-        height: 150px;
-        width: 150px;
-    }
-    
-    .unicorn {
-        margin-top: -40px;
-    display: flex;
-    justify-content: space-around;
     }
 }

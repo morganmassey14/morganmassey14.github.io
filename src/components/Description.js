@@ -7,7 +7,7 @@ export const Description = () => {
         <>
         <div id="description" className="description">
         <section className="description_text"> <div className="description-section__about">
-            <h1>Hey Ya'll, Im Morgan Massey. A UI/UX Designer & Front End Developer</h1>
+            <h1>Hey Ya'll! I'm Morgan Massey, a UI/UX Designer & Front End Developer</h1>
             </div></section>
         <section>   
              <div className="profilepicture"><img className="profile-img" src={profile} alt="mmpic" /></div>

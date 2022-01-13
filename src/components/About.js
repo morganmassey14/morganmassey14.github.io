@@ -7,6 +7,7 @@ import travel from "../images/travel.svg";
 import resume from "../images/resume.svg";
 import { BsLinkedin, BsGithub, BsFillEnvelopeFill } from "react-icons/bs";
 import unicorn from "../images/unicorn.png";
+import header from "../images/interestheader.svg";
 
 
 export const About = () => {
@@ -15,7 +16,7 @@ export const About = () => {
         <div id="about" className="about">
         <div className="aboutpicture"><img className="about-img" src={about} alt="mmpic" /></div>
             <div className="about-section__about">
-            <div className="resumepicture"><a href="https://arizonaatwork.com" target="_blank"><img className="resume-img rotating" src={resume} alt="resume"/></a></div>
+            <div className="resumepicture"><a href="https://drive.google.com/file/d/1eoh6uJ6IX8ZqU0SKUKhCIBcbW_u-zUFo/view?usp=sharing" target="_blank"><img className="resume-img rotating" src={resume} alt="resume"/></a></div>
                 <div className="about-section__icon">
                 <div className="media-btn">
                 <h3>About</h3>
@@ -52,10 +53,11 @@ export const About = () => {
         </div>
         </div>
                 <div className="about-section__text">
-                <h5></h5>
+                <h5>As a Front-End Developer, I am passionate about creating user-focused and responsive applications. I strive to use my creativity in a way that makes the world around me beautiful and harmonious. I'm focused on connecting with others through hearing their stories and seeing things from their perspective. I strive to construct an inclusive environment where everyone feels welcome and seen. My Superpowers are my positivity, kindness, enthusiasm for whatever gets thrown my way. Above all, I value human connection, authenticity, and mutual support.</h5>
             </div>
             </div>
             </div>
+            <div className="headerpicture"><img className="header-img" src={header} alt="header" /></div>
             <div className="about-section__interests">
                 <div className="about-interest">
             <div className="moon"><img className="moon-img" src={moon} alt="moonimg" />
