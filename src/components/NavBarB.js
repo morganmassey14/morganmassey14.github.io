@@ -4,12 +4,13 @@ import { About } from "./About";
 import {Work} from "./Work";
 import {Description} from "./Description";
 import "../styles/custom.scss"
+import logo from "../images/mmlogo.svg";
 
 export const NavBarB = () => {
- return (
+ return ( 
 <Tab.Container id="left-tabs-example" defaultActiveKey="first">
-
       <Nav className="justify-content-end" variant="tabs" >
+      <div className="logo"><img className="logo-img" src={logo} alt="logopic" /></div> 
         <Nav.Item>
           <Nav.Link eventKey="first">Home</Nav.Link>
         </Nav.Item>

@@ -7,7 +7,12 @@ import travel from "../images/travel.svg";
 import resume from "../images/resume.svg";
 import { BsLinkedin, BsGithub, BsFillEnvelopeFill } from "react-icons/bs";
 import unicorn from "../images/unicorn.png";
-import header from "../images/interestheader.svg";
+import sparkleleft from "../images/sparkleleft.svg";
+import sparkleright from "../images/sparkleright.svg";
+import dachshund from "../images/dachshund.png";
+import cupcake from "../images/cupcake.png";
+import palette from "../images/palette.png";
+import plane from "../images/plane.png";
 
 
 export const About = () => {
@@ -57,26 +62,42 @@ export const About = () => {
             </div>
             </div>
             </div>
-            <div className="headerpicture"><img className="header-img" src={header} alt="header" /></div>
+            <div className="about-interest__header">
+                <img className="sparkle-left" src={sparkleleft} alt="sparkleft" />
+                <h2>When I'm not coding, you can find me.....</h2>
+                <img className="sparkle-right" src={sparkleright} alt="sparkright" />
+            </div>
             <div className="about-section__interests">
                 <div className="about-interest">
             <div className="moon"><img className="moon-img" src={moon} alt="moonimg" />
+            <div className="text-icon">
+                <img className="dachshund-img" src={dachshund} alt="dachshundimg" />    
                 <h5>Playing with my dachshund, Moon Unit</h5>
+                </div>
                 </div>
                 </div>
                 <div className="about-interest">
                 <div className="cake"><img className="cake-img" src={cake} alt="cakeimg" />
+                <div className="text-icon">
+                <img className="cupcake-img" src={cupcake} alt="cupcakeimg" />
                 <h5>Baking and decorating vegan cakes</h5>
+                </div>
                 </div>
                 </div>
                 <div className="about-interest">
                 <div className="craft"><img className="craft-img" src={craft} alt="craftimg" />
+                <div className="text-icon">
+                <img className="palette-img" src={palette} alt="paletteimg" />
                 <h5>Creating art with many different mediums</h5>
+                </div>
                 </div>
                 </div>
                 <div className="about-interest">
                 <div className="travel"><img className="travel-img" src={travel} alt="travelimg" />
+                <div className="text-icon">
+                <img className="plane-img" src={plane} alt="planeimg" />
                 <h5>Travelling to places that feel like a Bob Ross painting</h5>
+                </div>
             </div>
             </div>
             </div>

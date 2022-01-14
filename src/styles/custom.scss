@@ -1,7 +1,7 @@
 
 @import "./_colors.scss";
 @import "bootstrap/scss/bootstrap.scss";
-@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Titillium+Web:wght@200;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dosis&family=Manrope:wght@600&family=Titillium+Web:wght@200;900&display=swap');
 @import "./navbar.scss";
 @import "./description.scss";
@@ -16,10 +16,10 @@ body {
 
 h1,
 h2 {
-    font-family: 'Shrikhand', cursive;
+    font-family: 'Shrikhand', sans-serif;
 }
 
-h3 { font-family: 'Shrikhand', cursive;
+h3 { font-family: 'Shrikhand', sans-serif;
     font-size: 45px;
 
 }

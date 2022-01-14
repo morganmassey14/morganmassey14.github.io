@@ -2,14 +2,48 @@
   background-color: $hotpink;
   font-size: large;
   color: $white;
-  font-family: 'Shrikhand', cursive;
+  font-family: 'Shrikhand', sans-serif;
+  height: 44px;
+  position: sticky;
+  top: 0;
 }
 
-@media only screen and (min-width:361px){
+.logo-img {
+  height: 85px;
+  width: 85px;
+  transform: rotate(-20deg);
+
+}
+
+.logo {
+  display:flex;
+  position: absolute;
+  left: 0px;
+  padding: 3px;
+}
+
+@media only screen and (min-width:576px){
   .justify-content-end {
     background-color: $hotpink;
     font-size: xx-large;
     color: $white;
-    font-family: 'Shrikhand', cursive;
+    font-family: 'Shrikhand', sans-serif;
+    height: 62px;
+    position: sticky;
+    top: 0;
+  }
+
+  .logo-img {
+    height: 124px;
+    width: 124px;
+    transform: rotate(-20deg);
+  }
+
+  .logo {
+    display:flex;
+    position: absolute;
+    left: 0px;
+    padding-top: .25em;
+    padding-left: .25em;
   }
 } 
