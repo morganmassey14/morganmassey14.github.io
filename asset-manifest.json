@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.d822eda1.chunk.css",
-    "main.js": "/static/js/main.50e91b0c.chunk.js",
-    "main.js.map": "/static/js/main.50e91b0c.chunk.js.map",
+    "main.css": "/static/css/main.afadaf41.chunk.css",
+    "main.js": "/static/js/main.638eefe9.chunk.js",
+    "main.js.map": "/static/js/main.638eefe9.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.05e6f4b7.js",
     "runtime-main.js.map": "/static/js/runtime-main.05e6f4b7.js.map",
     "static/js/2.dc274608.chunk.js": "/static/js/2.dc274608.chunk.js",
     "static/js/2.dc274608.chunk.js.map": "/static/js/2.dc274608.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.d822eda1.chunk.css.map": "/static/css/main.d822eda1.chunk.css.map",
+    "static/css/main.afadaf41.chunk.css.map": "/static/css/main.afadaf41.chunk.css.map",
     "static/js/2.dc274608.chunk.js.LICENSE.txt": "/static/js/2.dc274608.chunk.js.LICENSE.txt",
     "static/media/aboutpicture.22880931.svg": "/static/media/aboutpicture.22880931.svg",
     "static/media/c51.bb211033.png": "/static/media/c51.bb211033.png",
     "static/media/cake.b006f98a.svg": "/static/media/cake.b006f98a.svg",
     "static/media/craft.7c58d66a.svg": "/static/media/craft.7c58d66a.svg",
+    "static/media/mmlogo.a1a2179b.svg": "/static/media/mmlogo.a1a2179b.svg",
     "static/media/moodmoons.74b636db.png": "/static/media/moodmoons.74b636db.png",
     "static/media/moon.2e6359d8.svg": "/static/media/moon.2e6359d8.svg",
     "static/media/profile.54a35717.svg": "/static/media/profile.54a35717.svg",
@@ -25,7 +26,7 @@
   "entrypoints": [
     "static/js/runtime-main.05e6f4b7.js",
     "static/js/2.dc274608.chunk.js",
-    "static/css/main.d822eda1.chunk.css",
-    "static/js/main.50e91b0c.chunk.js"
+    "static/css/main.afadaf41.chunk.css",
+    "static/js/main.638eefe9.chunk.js"
   ]
 }
