@@ -1,5 +1,5 @@
 import React from "react";
-import profile from "../images/profile.svg";
+import profile from "../images/profile.png";
 import { BsLinkedin, BsGithub, BsFillEnvelopeFill } from "react-icons/bs";
 
 export const Description = () => {

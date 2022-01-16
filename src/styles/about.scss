@@ -1,7 +1,7 @@
 //mobile version
 img.about-img {
-    height: 350px;
-    width: 350px;
+    padding: 1em;
+    width: 360px;
     margin-left: 5px;
 }
 
@@ -22,27 +22,23 @@ img.about-img {
 }
 
 img.moon-img {
-    height: 150px;
     width: 150px;
 }
 
 img.craft-img {
-    height: 150px;
     width: 150px;
 }
 
 img.cake-img {
-    height: 150px;
     width: 150px;
 }
 
 img.travel-img {
-    height: 150px;
     width: 150px;
 }
 
 img.resume-img {
-    margin-top: -200px;
+    margin-top: -130px;
     width: 150px;
 }
 
@@ -124,8 +120,7 @@ h3 {
 //media query
 @media only screen and (min-width:576px){
     img.about-img {
-        height: 500px;
-        width: 500px;
+        width: 600px;
         margin-left: 5px;
     }
     
@@ -165,27 +160,23 @@ h3 {
     }
     
     img.moon-img {
-        height: 250px;
         width: 250px;
     }
     
     img.craft-img {
-        height: 250px;
         width: 250px;
     }
     
     img.cake-img {
-        height: 250px;
         width: 250px;
     }
     
     img.travel-img {
-        height: 250px;
         width: 250px;
     }
     
     img.resume-img {
-        margin-top: -350px;
+        margin-top: -250px;
         margin-left: 1.5em;
         width: 200px;
         
@@ -291,5 +282,9 @@ h3 {
             font-size: medium;
         }
 
+    }
+
+    .media-btn {
+        padding-top: 3em;
     }
 }

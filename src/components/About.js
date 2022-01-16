@@ -1,9 +1,9 @@
 import React from "react";
-import about from "../images/aboutpicture.svg";
-import moon from "../images/moon.svg";
-import cake from "../images/cake.svg";
-import craft from "../images/craft.svg";
-import travel from "../images/travel.svg";
+import about from "../images/about.png";
+import moon from "../images/moon.png";
+import cake from "../images/cake.png";
+import craft from "../images/craft.png";
+import travel from "../images/travel.png";
 import resume from "../images/resume.svg";
 import { BsLinkedin, BsGithub, BsFillEnvelopeFill } from "react-icons/bs";
 import unicorn from "../images/unicorn.png";
