@@ -45,6 +45,7 @@ img.resume-img {
 img.unicorn-img {
     display: none;
 }
+
 @-webkit-keyframes rotating /* Safari and Chrome */ {
     from {
       -webkit-transform: rotate(0deg);
@@ -86,6 +87,7 @@ img.unicorn-img {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    text-align: center;
 }
 .about-interest {
     width: 160px;
@@ -104,7 +106,7 @@ a {
 
 .media-btn {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
 }
 
 svg{
@@ -222,6 +224,7 @@ h3 {
         flex-direction: row;
         flex-wrap: wrap;
         padding: 2em;
+        text-align: center;
     }
    
     .icon {

@@ -3,6 +3,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .description_text{
@@ -59,7 +60,6 @@ img.profile-img {
     
     img.profile-img {
         width: 600px;
-        height: 500px;
     }
     
     .description__icon {

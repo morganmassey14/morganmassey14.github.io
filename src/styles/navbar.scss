@@ -22,6 +22,18 @@
   padding: 3px;
 }
 
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+
+border-color: transparent;
+
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+  border-color: transparent;
+  background-color: $white;
+  color: #495057;
+  cursor: pointer;
+}
+}
+
 @media only screen and (min-width:576px){
   .justify-content-end {
     background-color: $hotpink;
@@ -45,5 +57,16 @@
     left: 0px;
     padding-top: .25em;
     padding-left: .25em;
+  }
+
+  .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+
+    border-color: transparent;
+    } 
+
+    .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+      border-color: transparent;
+      background-color: $white;
+      color: #495057;
   }
 } 
