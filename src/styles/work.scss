@@ -32,6 +32,11 @@ img.c51 {
     padding: 2em;
 }
 
+img.sparkdiv-img {
+    width: 360px;
+    padding-top: 32px;
+}
+
  @media only screen and (min-width:576px) {
     .work-section__c51 {
         padding: 2em 2em 0em 2em;
@@ -64,4 +69,9 @@ img.c51 {
          width: 600px;
          padding: 2em;
      }
+
+     img.sparkdiv-img {
+        width: 700px;
+        padding-top: 0px;
+    }
  }
