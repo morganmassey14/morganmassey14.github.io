@@ -21,7 +21,7 @@ export const About = () => {
         <div id="about" className="about">
         <div className="aboutpicture"><img className="about-img" src={about} alt="mmpic" /></div>
             <div className="about-section__about">
-            <div className="resumepicture"><a href="https://drive.google.com/file/d/1eoh6uJ6IX8ZqU0SKUKhCIBcbW_u-zUFo/view?usp=sharing" target="_blank"><img className="resume-img rotating" src={resume} alt="resume"/></a></div>
+            <div className="resumepicture"><a href="https://drive.google.com/file/d/1UeIW5zKuBer1YpJa4WVyY-_6DkCnRtia/view?usp=sharing" target="_blank"><img className="resume-img rotating" src={resume} alt="resume"/></a></div>
                 <div className="about-section__icon">
                 <div className="media-btn">
                 <h3>About</h3>

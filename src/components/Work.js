@@ -4,7 +4,7 @@ import moodmoons from "../images/moodmoons.png";
 import "../styles/custom.scss";
 import { CaseStudyCW, PrototypeCW, PrototypeMM, CaseStudyMM } from "./Buttons";
 import sparkdiv from "../images/sparkledivide.svg";
-
+import messyhands from "../images/messyhands.png";
 
 export const Work = () => {
     return (
@@ -28,6 +28,12 @@ export const Work = () => {
             <CaseStudyMM />
             <PrototypeMM />
             </div>
+            <div className="sparkledivide"><img className="sparkdiv-img" src={sparkdiv} alt="sparkdivpic" /></div>
+        </div>
+        <div className="work-section__messyhands">
+        <h1>Messy Hands</h1>
+            <div className="messyhandspicture"><img className="messyhands" src={messyhands} alt="messyhands"/></div>                
+            <h5>Messy Hands is a nature crafting app designed for small children, and is my final capstone project for Nashville Software School.</h5>
             <div className="sparkledivide"><img className="sparkdiv-img" src={sparkdiv} alt="sparkdivpic" /></div>
         </div>
         </div>

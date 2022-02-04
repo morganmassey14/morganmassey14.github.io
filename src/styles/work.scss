@@ -32,6 +32,11 @@ img.c51 {
     padding: 2em;
 }
 
+img.messyhands {
+    width: 300px;
+    padding: 2em;
+}
+
 img.sparkdiv-img {
     width: 360px;
     padding-top: 32px;
@@ -70,6 +75,22 @@ img.sparkdiv-img {
          padding: 2em;
      }
 
+     .work-section__messyhands {
+        padding: 2em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+         h5 {
+            max-width: 35em;
+            padding-left: 1em;
+        }
+    }
+
+     img.messyhands {
+         width: 600px;
+         padding: 2em;
+     }
+     
      img.sparkdiv-img {
         width: 700px;
         padding-top: 0px;
