@@ -23,8 +23,7 @@ export const Work = () => {
             <img className="messyhands" src={messyhands} alt="messyhands" />
           </div>
           <h5>
-            Messy Hands is a nature crafting app designed for small children,
-            and is my final capstone project for Nashville Software School.
+          Messy Hands is a nature crafting application for young children. This app was designed to encourage children to get outside and use their creativity in an accessible and budget-friendly way. Messy Hands was built using UI/UX principles, React JavaScript, and JSON-server.
           </h5>
           <div className="mh-btn-container">
             <CaseStudyMH />
