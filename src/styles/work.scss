@@ -11,12 +11,18 @@
 
 }
 
-img.c51 {
-        width: 300px;
-        padding: 2em;
-    }
-
 .work-section__moodmoons {
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     h5 {
+        max-width: 35em;
+        padding-left: 1em;
+    }
+}
+
+.work-section__messyhands {
     padding: 2em;
     display: flex;
     flex-direction: column;
@@ -33,6 +39,11 @@ img.c51 {
 }
 
 img.messyhands {
+    width: 300px;
+    padding: 2em;
+}
+
+img.c51 {
     width: 300px;
     padding: 2em;
 }
