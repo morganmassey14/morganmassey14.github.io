@@ -1,151 +1,190 @@
 //mobile
 
 .case-study-cw-btn {
-    border-radius: 20px;
-    background: $blue;
-    color: $black;
-    padding: 1em 4em;
-    font-weight: 600;
-    margin: 0 0 0.5rem;
-    .btn-item {
-        text-align: center;
-        text-decoration: none;
-    }
-}
-  
-
-.prototype-cw-btn {
-    border-radius: 20px;
-    background: $pink;
-    color: $black;
-    padding: 1em 4em;
-    font-size: 15px;
-    margin: 0 0 0.5rem;
-    .btn-item {
-        text-align: center;
-        text-decoration: none;
-    }
-}
-
-.case-study-mm-btn {
-    border-radius: 20px;
-    background: $blue;
-    color: $black;
-    padding: 1em 4em;
-    margin: 0 0 0.5rem;
-    .btn-item {
-        text-align: center;
-        text-decoration: none;
-    }
-   
-}
-  
-
-.prototype-mm-btn {
-    border-radius: 20px;
-    background: $pink;
-    color: $black;
-    padding: 1em 4em;
-    margin: 0 0 0.5rem;
-    .btn-item {
-        text-align: center;
-        text-decoration: none;
-    }
-}
-
-       
-a {
+  border-radius: 20px;
+  background: $blue;
+  color: $black;
+  padding: 1em 4em;
+  font-weight: 600;
+  margin: 0 0 0.5rem;
+  .btn-item {
+    text-align: center;
     text-decoration: none;
+  }
 }
-
-.c51-btn-container{
-    display: flex;
-    flex-direction: column;
-}
-
-
-.mm-btn-container{
-    display: flex;
-    flex-direction: column;
-} 
-
-@media only screen and (min-width:576px) {
-    //mobile
-
-.case-study-cw-btn {
-    border-radius: 20px;
-    background: $blue;
-    color: $black;
-    padding: 0.7em 2.5em;
-    .btn-item {
-        text-align: center;
-        text-decoration: none;
-    }
-   
-}
-  
 
 .prototype-cw-btn {
-    border-radius: 20px;
-    background: $pink;
-    color: $black;
-    padding: 0.7em 2.5em;
-    .btn-item {
-        text-align: center;
-        text-decoration: none;
-    }
+  border-radius: 20px;
+  background: $pink;
+  color: $black;
+  padding: 1em 4em;
+  font-size: 15px;
+  margin: 0 0 0.5rem;
+  .btn-item {
+    text-align: center;
+    text-decoration: none;
+  }
 }
 
 .case-study-mm-btn {
+  border-radius: 20px;
+  background: $blue;
+  color: $black;
+  padding: 1em 4em;
+  margin: 0 0 0.5rem;
+  .btn-item {
+    text-align: center;
+    text-decoration: none;
+  }
+}
+
+.prototype-mm-btn {
+  border-radius: 20px;
+  background: $pink;
+  color: $black;
+  padding: 1em 4em;
+  margin: 0 0 0.5rem;
+  .btn-item {
+    text-align: center;
+    text-decoration: none;
+  }
+}
+
+.case-study-mh-btn {
+  border-radius: 20px;
+  background: $blue;
+  color: $black;
+  padding: 1em 4em;
+  font-weight: 600;
+  margin: 0 0 0.5rem;
+  .btn-item {
+    text-align: center;
+    text-decoration: none;
+  }
+}
+
+.prototype-mh-btn {
+  border-radius: 20px;
+  background: $pink;
+  color: $black;
+  padding: 1em 4em;
+  font-size: 15px;
+  margin: 0 0 0.5rem;
+  .btn-item {
+    text-align: center;
+    text-decoration: none;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 576px) {
+  //mobile
+
+  .case-study-cw-btn {
     border-radius: 20px;
     background: $blue;
     color: $black;
     padding: 0.7em 2.5em;
     .btn-item {
-        text-align: center;
-        text-decoration: none;
+      text-align: center;
+      text-decoration: none;
     }
-   
-}
-  
+  }
 
-.prototype-mm-btn {
+  .prototype-cw-btn {
     border-radius: 20px;
     background: $pink;
     color: $black;
     padding: 0.7em 2.5em;
     .btn-item {
-        text-align: center;
-        text-decoration: none;
+      text-align: center;
+      text-decoration: none;
     }
-}
+  }
 
-       
+  .case-study-mm-btn {
+    border-radius: 20px;
+    background: $blue;
+    color: $black;
+    padding: 0.7em 2.5em;
+    .btn-item {
+      text-align: center;
+      text-decoration: none;
+    }
+  }
 
+  .prototype-mm-btn {
+    border-radius: 20px;
+    background: $pink;
+    color: $black;
+    padding: 0.7em 2.5em;
+    .btn-item {
+      text-align: center;
+      text-decoration: none;
+    }
+  }
+  .case-study-mh-btn {
+    border-radius: 20px;
+    background: $blue;
+    color: $black;
+    padding: 0.7em 2.5em;
+    .btn-item {
+      text-align: center;
+      text-decoration: none;
+    }
+  }
 
-.c51-btn-container{
+  .prototype-mh-btn {
+    border-radius: 20px;
+    background: $pink;
+    color: $black;
+    padding: 0.7em 2.5em;
+    .btn-item {
+      text-align: center;
+      text-decoration: none;
+    }
+  }
+
+  a:hover {
+    text-decoration: none;
+  }
+
+  .c51-btn-container {
     display: flex;
     flex-direction: row;
     a {
-        text-decoration: none;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 2em;
+      text-decoration: none;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2em;
     }
- 
-}
+  }
 
-
-.mm-btn-container{
+  .mm-btn-container {
     display: flex;
     flex-direction: row;
     a {
-        text-decoration: none;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 2em;
+      text-decoration: none;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2em;
     }
-} 
+  }
+
+  .mh-btn-container {
+    display: flex;
+    flex-direction: row;
+    a {
+      text-decoration: none;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2em;
+    }
+  }
 }
